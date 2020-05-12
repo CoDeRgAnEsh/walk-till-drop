@@ -26,7 +26,6 @@ jobs:
       - run: flutter pub get
         working-directory: ./
       - run: flutter build apk
-      - name: Create a Release APK
       - uses: actions/upload-artifact@v1
         with:
          name: release-apk
