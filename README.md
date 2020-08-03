@@ -1,4 +1,4 @@
-# Walk Till Drop
+# Walk Till Drop👣
 
 ## Getting Started
 
