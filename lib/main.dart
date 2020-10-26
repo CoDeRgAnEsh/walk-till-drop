@@ -130,12 +130,11 @@ class _MyAppState extends State<MyApp> {
               width: 250, 
               height: 250, 
               decoration: BoxDecoration(
-                  // gradient: LinearGradient(
-                  //   begin: Alignment
-                  //       .bottomCenter, 
-                  //   end: Alignment.topCenter,
-                  //   colors: [Color(0xFFA9F5F2), Color(0xFF01DFD7)],
-                  // ),
+                  gradient: LinearGradient(
+                  begin: Alignment.bottomCenter, 
+                  end: Alignment.topCenter,
+                  colors: [Color(0xFFA9F5F2), Color(0xFF01DFD7)],
+                  ),
                   borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(27.0),
                     bottomRight: Radius.circular(27.0),
